@@ -249,11 +249,11 @@ export default function Home({ articles }) {
         <title>Brett Snyder - Frontend Developer, UI/UX, Web Designer</title>
         <meta
           name="description"
-          content="I’m Brett Snyder, at 17 drew a sketch that sold thousands of copies. Spent
-          several years working for corporations in graphic and web design.
-          Then discovered how frontend development can make those web designs
-          come to life. Along the way, I taught kids in Vermont and Arizona to
-          believe in themselves through gymnastics."
+          content="I’m Brett Snyder, at 17 did a sketch that ended up in some stores. Spent several years
+          working for corporations in graphic and web design. And now, making
+          those designs come to life using code. Along the way, taught
+          hundreds of kids in Vermont and Arizona to believe in themselves
+          through gymnastics."
         />
       </Head>
       <Container className="relative z-0 mt-9">
@@ -272,9 +272,9 @@ export default function Home({ articles }) {
             >
               Brett&nbsp;Snyder
             </RoughNotation>{' '}
-            , at 17 did a sketch that ended up in stores. Spent several years
-            working for corporations in graphic and web design. And now, making
-            those designs come to life using code. Along the way, taught
+            , at 17 did a sketch that ended up in some stores. Spent several
+            years working for corporations in graphic and web design. And now,
+            making those designs come to life using code. Along the way, taught
             hundreds of kids in Vermont and Arizona to believe in themselves
             through gymnastics.
           </p>
