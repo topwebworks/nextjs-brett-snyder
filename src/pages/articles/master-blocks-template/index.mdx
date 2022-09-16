@@ -7,44 +7,44 @@ export const meta = {
   date: '2022-09-15',
   title: 'Master Blocks Template',
   description:
-    'I was told their busy season started 3 weeks ago, and they needed several landing pages - fast. Late nights may be required. WordPress, custom CMS, and standalone - mutiple brands. I quickly built a Tailwind inspired modular custom HTML template & demo that allowed for platform & variable overrides. Now landing pages can be setup before the job ticket is.',
+    'I was told their busy season started 3 weeks ago, and they needed several landing pages - fast. Late nights may be required. WordPress, custom CMS, and standalone - multiple brands. I quickly built a Tailwind-inspired modular custom HTML template & demo that allowed for platform & variable overrides. Now landing pages can be set up before the job ticket is.',
 }
 
 export default (props) => <ArticleLayout meta={meta} {...props} />
 
-Thursday afternoon, Marketing conveyed a dire need for landing pages - fast. Their busy season has started without them. The team requires the ability to edit site content, even play with the layout blocks - the cms approach. Their platforms are WordPress and a custom DotNet cms hosting up to 6 different product brands. Some brands will have more than one campaign. They gave me a wireframe to start building the first of many upcoming landing&nbsp;pages.
+Thursday afternoon, Marketing conveyed a dire need for landing pages - fast. Their busy season has started without them. The team requires the ability to edit site content, and even play with the layout blocks - the cms approach. Their platforms are WordPress and custom DotNet cms hosting up to 6 different product brands. Some brands will have more than one campaign. They gave me a wireframe to start building the first of many upcoming landing&nbsp;pages.
 
 <Image src={masterBlocks} alt="" />
 
-What would be the fastest most efficient path to churn these out? A template of course! The fact Marketing needs direct code access, and soon, removes any option of introducing new frameworks like Tailwind or a static site generator. The pages have to be in HTML/CSS so the team has the ability to edit and repurpose them in the future. The marketing team had been working with basic html in cms buckets and widgets for a while&nbsp;already.
+What would be the fastest most efficient path to churn these out? A template of course! The fact Marketing needs direct code access, and soon, removes any option of introducing new frameworks like Tailwind or a static site generator. The pages have to be in HTML/CSS so the team can edit and repurpose them in the future. The marketing team had been working with basic HTML in cms buckets and widgets for a while&nbsp;already.
 
 ## Elevator Pitch
 
-By late afternoon, I threw together a <a href="https://www.figma.com/file/RsPli1nlGQuaH6KcpPDWCd/Master-LP-Blocks-Graybox?node-id=0%3A1" target="samples">wireframe</a> showing what a master template might look like - reflecting their provided wireframe elements - and then some. The concept was to create a flex template of modular content blocks that are portable. Meaning each block and child element can be moved or deleted without breaking the layout on any cms, or even standalone. The template would include most all elements they would evert need, then refactor the page from there. The pitch was approved and I was off to the&nbsp;races.
+By late afternoon, I threw together a <a href="https://www.figma.com/file/RsPli1nlGQuaH6KcpPDWCd/Master-LP-Blocks-Graybox?node-id=0%3A1" target="samples">wireframe</a> showing what a master template might look like - reflecting their provided wireframe elements - and then some. The concept was to create a flex template of modular content blocks that are portable. Meaning each block and child element can be moved or deleted without breaking the layout on any cms, or even standalone. The template would include almost all elements they would ever need, then refactor the page from there. The pitch was approved and I was off to the&nbsp;races.
 
 ## Default Block Sequence
 
-All blocks can be moved, but what is the best default sequence? Having done some UI a/b testing before, my heatmaps revealed most all conversions take place above the fold. A long page funnel does not work at least for this demographic. The Blocks template needs to be able to work with or without a cms header and footer - a CSS override section is needed to reset entrenched cms styles. It also needs to have modular branding, so use css variables. If I want to keep the content blocks portable, I would need global and individual css block seperation. Lastly, a "user" style override section at the bottom so the core styles above are not erased and break the template upgrade path. Default&nbsp;block&nbsp;sequence:
+All blocks can be moved, but what is the best default sequence? Having done some UI a/b testing before, my heatmaps revealed most all conversions take place above the fold. A long page funnel does not work at least for this demographic. The Blocks template needs to be able to work with or without a cms header and footer - a CSS override section is needed to reset entrenched cms styles. It also needs to have modular branding, so use CSS variables. If I want to keep the content blocks portable, I would need global and individual CSS block separation. Lastly, a "user" style override section at the bottom so the core styles above are not erased and break the template upgrade path. Default&nbsp;block&nbsp;sequence:
 
-1. **Hero** block maxed out might have a simple leadgen form, phone, logo, title, subtext and 2 buttons. The hero background should contain a video background and modal. I prefer no nav links that send people off the page; kiss most of them goodbye. These landing pages are not microsites...but will include one nav link just incase.
+1. **Hero** block maxed out might have a simple lead-gen form, phone, logo, title, subtext, and 2 buttons. The hero background should contain a video background and modal. I prefer no nav links that send people off the page; kiss most of them goodbye. These landing pages are not microsites...but will include one nav link just in case.
 
 2. **Centered Text** block is to welcome and reinforce what the hero did not say clearly. It could include jump links or buttons to bring them down the page.
 
-3. **Benefits** and features, each with buttons and download links. Also include a floating call now button that launches if the user clicks on a benefit icon...they always do. Also show this floating call button below the fold.
+3. **Benefits** and features, each with buttons and download links. Include a floating call now button that launches if the user clicks on a benefit icon...they always do. Show this floating call button below the fold.
 
-4. **Tabs** to easily inform and ecourage a conversion - images, content, and a button.
+4. **Tabs** to easily inform and encourage a conversion - images, content, and a button.
 
 5. **Split L/R** content blocks for pacing. Establish value with a deeper expert explanation or pricing options. Mix in user testimonials and a call now button.
 
-6. **CTA** shows a nobrainer offer. Of course I will click this! I would be crazy not to. Freebies are always good. Forms do not pull at the bottom.
+6. **CTA** shows a no-brainer offer. Of course, I will click this! I would be crazy not to. Freebies are always good. Forms do not pull at the bottom.
 
 7. **Infobar** is not a large CTA block but a good content divider or small footer that shows a small button, text, etc.
 
-8. **Chat Widget** integration - only used if no existing cms header in play.
+8. **Chat Widget** integration - only used if no existing cms header is in play.
 
 ## The Build
 
-On Friday I started round 1, knocking out the blocks Marketing initially needed. Hero, Ceneter Text, Benefits, Split L/R, CTA, and Infobar. For round 2 I would hit - tabs, videos, modal, floating button, and standalone chat. By Monday Round 1 was ready to test. To demo the template, I inspected elements in Chrome dev tools, moved and deleted blocks in-browser to create the initial wireframe they initially gave me - in just minutes. The beauty of using flex is how forgiving removing or duplicating elements are. I did not use grid as that may not cause too many issues. Kept it simple. Here is the page structure I used to get started.
+On Friday I started round 1, knocking out the blocks Marketing initially needed. Hero, Ceneter Text, Benefits, Split L/R, CTA, and Infobar. For round 2 I would hit - tabs, videos, modal, floating button, and standalone chat. By Monday Round 1 was ready to test. To demo the template, I inspected elements in Chrome dev tools, moved and deleted blocks in-browser to create the initial wireframe they initially gave me - in just minutes. The beauty of using flex is how forgiving removing or duplicating elements is. I did not use grid as that may not cause too many issues. Kept it simple. Here is the page structure I used to get started.
 
 ```c
 <style>
@@ -94,7 +94,7 @@ On Friday I started round 1, knocking out the blocks Marketing initially needed.
 ...
 ```
 
-The goal was either myself, or the marketing team, is able to cut and paste code blocks in-browser first to try out different layouts. Then screen capture that browser comp for approval. Then hand it off for asset creation or development using the master blocks template. Paste in the corresponding brand styles that include color variables and cms style overrides. To customize further, use in-browser style edits to try things out. Cut and paste from the browser into the "Your Override Styles" section. Below is the recommended&nbsp;approach:
+The goal was for either myself or the marketing team can cut and paste code blocks in-browser first to try out different layouts. Then to screen capture that inbrowser comp for approval. Then hand it off for asset creation or development using the master blocks template. Paste in the corresponding brand styles that include color variables and cms style overrides. To customize further, use in-browser style edits to try things out. Cut and paste from the browser into the "Your Override Styles" section. Below is the recommended&nbsp;approach:
 
 1. Open template with VSCode > Live Server Extension in Chrome.
 2. Inspect (F12) elements using Dev Tools > Elements - delete/edit/move elements to test custom layouts.
@@ -103,4 +103,4 @@ The goal was either myself, or the marketing team, is able to cut and paste code
 
 After the first round of landing pages were quickly churned out, I added round 2 features to the <a href="https://www.brettsnyder.me/demo/master-blocks/aop-master-lp-blocks.html" target="samples">template</a>. I also created an <a href="https://www.brettsnyder.me/demo/master-blocks/example-aop-lp.html" target="samples">example</a> to illustrate use for the designers. Here is a <a href="https://www.calvertacademy.com/landing/private-learning-experience-with-accreditation/" target="samples">page</a> that was wrapped in the cms header and footer.
 
-Now custom cms landing pages are created in a fraction of the time. They can also work as standalone pages, just have to add in the missing html head&nbsp;code.
+Now custom cms landing pages are created in a fraction of the time. They can also work as standalone pages, just have to add in the missing HTML head&nbsp;code.
