@@ -46,7 +46,7 @@ export default function ArticlesIndex({ articles }) {
       </Head>
       <SimpleLayout
         title="Case studies, web, life."
-        intro="Long form thoughts on programming, web design, marketing, and more."
+        intro="Long form thoughts on programming, web design, marketing, or whatever."
       >
         <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
           <div className="flex flex-col max-w-3xl space-y-16">
