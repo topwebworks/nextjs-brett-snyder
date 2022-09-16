@@ -46,7 +46,7 @@ export default function Uses() {
               just the right balance of power and heat. The Ryzen 9 5900HS is so
               fast. 1TB NVMe, and 1TB External SSD for portability. Ports are
               adequate. Missing a built-in webcam. Either I use my Logitech HD
-              clip-on webcam, connect via phone, or go voice only.
+              clip-on webcam, connect via phone, or go audio only.
             </Tool>
             <Tool title="47” External Monitor">
               My LG 47” LED monitor is way old, but I still love the one large
