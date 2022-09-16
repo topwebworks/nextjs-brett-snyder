@@ -66,8 +66,8 @@ export default function About() {
             </h1>
             <div className="mt-6 text-base space-y-7 text-zinc-600 dark:text-zinc-400">
               <p>
-                The following are summaries of work I have done. You must be
-                really bored if you are going to read this.
+                The following are summaries of the work I have done. You must be
+                bored if you are going to read this.
               </p>
               <p>
                 After attending BYU-I(Ricks) and BYU, I worked for a couple of
@@ -79,12 +79,12 @@ export default function About() {
                 when I first walked in with just a laptop.
               </p>
               <p>
-                After a couple years of local agency work, I joined the newly
+                After a couple of years of local agency work, I joined the newly
                 formed NuSkin International art department - the 3rd hire.
                 NuSkin experienced explosive growth and I was able to work on a
                 little of everything… photoshoots, catalogs, brochures,
-                branding, mutilingual versions, swag, etc. They even sent me to
-                Hong Kong for some catalog press-checks.
+                branding, multilingual versions, swag, etc. They even sent me to
+                Hong Kong for some catalog press checks.
               </p>
               <p>
                 While I was at NuSkin, they hired a fantastic creative director,
@@ -101,18 +101,18 @@ export default function About() {
                 left, I went to work with Smith Harrison Direct.
               </p>
               <p>
-                At SHD, I learned about direct marketing. Conversions. A well
-                crafted sales letter, inviting marketing inserts with limited
-                time offers. Just a phone call away. It was a small office but
-                they had several big clients. Names like American Express, Icon
-                Health &amp; Fitness brands, and Easton Sports just to name a
-                few. Alot of direct mail packets, brochures, web banners - some
-                basic web pages. I started playing with Macromedia Flash. After
-                a few years, SHD merged with a web house and we were known as
-                Studeo Interactive Direct.
+                At SHD, I learned about direct marketing. Conversions. A
+                well-crafted sales letter, inviting marketing inserts with
+                limited-time offers. Just a phone call away. It was a small
+                office but they had several big clients. Names like American
+                Express, Icon Health &amp; Fitness brands, and Easton Sports
+                just to name a few. A lot of direct mail packets, brochures, web
+                banners - some basic web pages. I started playing with
+                Macromedia Flash. After a few years, SHD merged with a web house
+                and we were known as Studeo Interactive Direct.
               </p>
               <p>
-                I had already done some basic flash and html work for SHD, so I
+                I had already done some basic flash and HTML work for SHD, so I
                 was excited to learn more web tech from Studeo. Websites, web
                 banners, ads, brochures. This was before the days of cms sites,
                 or CSS3 &amp; JQuery. Palm Pilot was a thing, responsive
@@ -123,20 +123,20 @@ export default function About() {
                 >
                   <a className="text-teal-500"> html&nbsp;sites (v2) </a>
                 </Link>
-                created buzz being a site of the day somewhere, was featured in
-                a SLC newspaper, added in a course book about iframes, and
+                created buzz being a site of the day somewhere was featured in a
+                local newspaper, added in a course book about iframes, and
                 posted on coolhomepages.com. My Earthlink bill that month was
                 ten times over what it usually was. Bittersweet.
               </p>
               <p>
                 Studeo had awesome creative leadership and I stayed on for
-                several more years. After a while, I decided help my brother
+                several more years. After a while, I decided to help my brother
                 with his martial arts business in upstate Vermont. Yep, I did
                 not know ANY martial arts or even how to teach children. Besides
                 handling marketing, I was to be the enrollment director and
                 intro instructor. Studeo offered me a year of remote work to
                 transition me out. This allowed me to move back and help my
-                brother grow his TaeKwon-do school to eventually one of the
+                brother grow his Taekwon-Do school to eventually one of the
                 largest in Vermont.
               </p>
               <p>
@@ -148,7 +148,7 @@ export default function About() {
                 woman to marry me, had kids, etc. Eventually, it was time to
                 move closer to my wife’s family in Arizona. I secured a contract
                 job with OrthoRehab in Phoenix refactoring their inter &amp;
-                intranet sites from php to DotNet - frontend only.
+                intranet sites from PHP to DotNet - frontend only.
               </p>
               <p>
                 About a year or so later, Steve offered me remote work for
@@ -156,17 +156,17 @@ export default function About() {
                 brochures, banners, etc. Ken Garff is one of the largest auto
                 dealers in Utah. I also started hosting 3 dedicated servers to
                 house new freelance client work. My freelance business went from
-                ProtoPC.com, CMSiteHosting.com, then later renamed to
+                ProtoPC.com, to CMSiteHosting.com, then later renamed
                 TopWebWorks.com. These old sites are not maintained anymore.
               </p>
               <p>
-                During the evening, I was a mild mannered freelance designer.
-                During the day, I started a recreational brick and mortar
+                During the evening, I was a mild-mannered freelance designer.
+                During the day, I started a recreational brick-and-mortar
                 gymnastics business called Funastics. Teaching kids how to flip
                 around. Within the first year, Funastics started to move into
-                the black. Funastics.com was top ranked on Google over all local
+                the black. Funastics.com was top-ranked on Google over all local
                 franchise competitors. A recreational gymnastics program built
-                on lifeskills, personal success, and having fun. Things were
+                on life skills, personal success, and having fun. Things were
                 looking up. So I thought.
               </p>
               <p>
