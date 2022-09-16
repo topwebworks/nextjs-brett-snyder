@@ -214,23 +214,23 @@ function Resume() {
 }
 
 function Photos() {
-  let rotations = ['rotate-2', '-rotate-2', 'rotate-2', '-rotate-2']
+  let rotations = ['rotate-2', '-rotate-2', 'rotate-2', 'rotate-2', '-rotate-2']
 
   return (
     <div className="mt-16 sm:mt-20">
-      <div className="flex justify-center gap-4 py-4 mx-auto -my-4 max-w-7xl sm:gap-6">
-        {[image1, image2, image3, image4].map((image, imageIndex) => (
+      <div className="flex justify-center gap-5 py-4 -my-4 overflow-hidden sm:gap-8">
+        {[image1, image2, image3, image4, image5].map((image, imageIndex) => (
           <Tilt key={image.src} className="flex w-full h-full mt-0 rounded-lg">
             <div
               className={clsx(
-                'relative aspect-[9/10] w-56 flex-none overflow-hidden rounded-xl bg-zinc-100 grayscale-0 filter dark:bg-zinc-800 sm:w-72 sm:rounded-2xl',
+                'relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl',
                 rotations[imageIndex % rotations.length]
               )}
             >
               <Image
                 src={image}
                 alt=""
-                sizes="(min-width: 340px) 18rem, 11rem"
+                sizes="(min-width: 640px) 18rem, 11rem"
                 className="absolute inset-0 object-cover w-full h-full"
                 priority
               />
@@ -293,9 +293,9 @@ export default function Home({ articles }) {
         </div>
         {/* Animated Background Shapes - Experimental */}
         <div className="absolute top-0 w-full h-64 max-w-lg right-10 -z-10 lg:right-10 xl:opacity-90">
-          <div className="absolute top-0 bg-purple-600 rounded-full -left-4 h-72 w-72 animate-blob opacity-20 mix-blend-multiply blur-xl filter"></div>
-          <div className="absolute top-0 bg-green-600 rounded-full animation-delay-2000 -right-4 h-72 w-72 animate-blob opacity-20 mix-blend-multiply blur-xl filter"></div>
-          <div className="absolute top-0 bg-orange-600 rounded-full animation-delay-4000 left-20 h-72 w-72 animate-blob opacity-20 mix-blend-multiply blur-xl filter"></div>
+          <div className="absolute top-0 bg-purple-600 rounded-full -left-4 animate-blob opacity-20 mix-blend-multiply blur-xl filter sm:h-72 sm:w-72"></div>
+          <div className="absolute top-0 bg-green-600 rounded-full animation-delay-2000 right-4 animate-blob opacity-20 mix-blend-multiply blur-xl filter sm:h-72 sm:w-72"></div>
+          <div className="absolute top-0 bg-orange-600 rounded-full animation-delay-4000 left-20 animate-blob opacity-20 mix-blend-multiply blur-xl filter sm:h-72 sm:w-72"></div>
         </div>
       </Container>
       <Photos />
