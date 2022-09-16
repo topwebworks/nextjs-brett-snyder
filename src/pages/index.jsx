@@ -294,7 +294,7 @@ export default function Home({ articles }) {
         {/* Animated Background Shapes - Experimental */}
         <div className="absolute top-0 w-full h-64 max-w-lg right-10 -z-10 lg:right-10 xl:opacity-90">
           <div className="absolute top-0 w-56 h-56 bg-purple-600 rounded-full -left-4 animate-blob opacity-20 mix-blend-multiply blur-xl filter sm:h-72 sm:w-72"></div>
-          <div className="absolute top-0 hidden w-56 h-56 bg-green-600 rounded-full animation-delay-2000 right-4 animate-blob opacity-20 mix-blend-multiply blur-xl filter sm:block sm:h-72 sm:w-72"></div>
+          <div className="absolute top-0 w-56 h-56 bg-green-600 rounded-full animation-delay-2000 right-4 animate-blob opacity-20 mix-blend-multiply blur-xl filter sm:h-72 sm:w-72"></div>
           <div className="absolute top-0 w-56 h-56 bg-orange-600 rounded-full animation-delay-4000 left-20 animate-blob opacity-20 mix-blend-multiply blur-xl filter sm:h-72 sm:w-72"></div>
         </div>
       </Container>
