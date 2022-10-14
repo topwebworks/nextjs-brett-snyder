@@ -124,7 +124,7 @@ export default function About() {
                   <a className="text-teal-500"> html&nbsp;sites (v2) </a>
                 </Link>
                 created buzz being a site of the day somewhere was featured in a
-                local newspaper, added in a course book about iframes, and
+                local newspaper, included in a course book about frames, and
                 posted on coolhomepages.com. My Earthlink bill that month was
                 ten times over what it usually was. Bittersweet.
               </p>
@@ -145,10 +145,11 @@ export default function About() {
                 marketing works. Later, we added coaching gymnastics and running
                 our afterschool program to my responsibilities. After a few
                 years of literally getting kicked around at work… I found a
-                woman to marry me, had kids, etc. Eventually, it was time to
-                move closer to my wife’s family in Arizona. I secured a contract
-                job with OrthoRehab in Phoenix refactoring their inter &amp;
-                intranet sites from PHP to DotNet - frontend only.
+                woman to marry me, had kids, cozy log home, etc. Eventually, it
+                was time to move closer to my wife’s family in Arizona. I
+                secured a contract job with OrthoRehab in Phoenix refactoring
+                their inter &amp; intranet sites from PHP to DotNet - frontend
+                only.
               </p>
               <p>
                 About a year or so later, Steve offered me remote work for
