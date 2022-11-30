@@ -33,6 +33,10 @@ const projects = [
         url: 'https://www.calvertacademy.com/landing/private-learning-experience-with-accreditation/',
         label: 'LP-1',
       },
+      {
+        url: 'https://www.aop.com/lp/holiday-gift-guide',
+        label: 'LP-2',
+      },
     ],
 
     logo: logoImagine,
