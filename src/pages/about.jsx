@@ -15,9 +15,9 @@ function SocialLink({ className, href, children, icon: Icon }) {
     <li className={clsx(className, 'flex')}>
       <Link
         href={href}
-        className="flex text-sm font-medium transition group text-zinc-800 hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
+        className="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
       >
-        <Icon className="flex-none w-6 h-6 transition fill-zinc-500 group-hover:fill-teal-500" />
+        <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500" />
         <span className="ml-4">{children}</span>
       </Link>
     </li>
@@ -40,21 +40,18 @@ export default function About() {
     <>
       <Head>
         <title>About - Brett Snyder</title>
-        <meta
-          name="description"
-          content="I’m Spencer Sharp. I live in New York City, where I design the future."
-        />
+        <meta name="description" content="I’m Brett Snyder." />
       </Head>
       <Container className="mt-16 sm:mt-32">
         <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
           <div className="lg:pl-20">
-            <Tilt className="flex w-full h-full mt-0">
+            <Tilt className="mt-0 flex h-full w-full">
               <div className="max-w-xs px-2.5 lg:max-w-none">
                 <Image
                   src={portraitImage}
                   alt=""
                   sizes="(min-width: 1024px) 32rem, 20rem"
-                  className="object-cover aspect-square rotate-3 rounded-2xl bg-zinc-100 grayscale-0 filter dark:bg-zinc-800"
+                  className="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover grayscale-0 filter dark:bg-zinc-800"
                   priority
                 />
               </div>
@@ -64,7 +61,7 @@ export default function About() {
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
               About me. The long and short of it.
             </h1>
-            <div className="mt-6 text-base space-y-7 text-zinc-600 dark:text-zinc-400">
+            <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
                 The following are summaries of the work I have done. You must be
                 bored if you are going to read this.
@@ -211,7 +208,7 @@ export default function About() {
               <SocialLink
                 href="mailto:info@brettsnyder.me"
                 icon={MailIcon}
-                className="pt-8 mt-8 border-t border-zinc-100 dark:border-zinc-700/40"
+                className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
                 info@brettsnyder.me
               </SocialLink>
