@@ -18,7 +18,7 @@ const projects = [
 
     links: [
       {
-        url: 'https://www.figma.com/file/RsPli1nlGQuaH6KcpPDWCd/Master-LP-Blocks-Graybox?node-id=0%3A1',
+        url: 'https://www.figma.com/file/Touan7noP4nCCu9D7xioU2/Master-LP-Blocks-Graybox-(Copy)?type=design&node-id=0%3A1&t=iLDWaBbBw2Z5Y7jr-1',
         label: 'Figma',
       },
       {
@@ -94,18 +94,14 @@ const projects = [
     logo: logoImagine,
   },
   {
-    name: 'Monarch & Calvert Microsites',
+    name: 'Monarch Microsite',
     description:
-      'Here are a couple microsite samples I built from provided designs. Marketing wanted an easy access CMS so I chose WordPress to knock these out. Later, I updated CTA buttons with Free Trial email forms to forward to an onboarding site.',
+      'Here is a microsite samples I built from provided designs. Marketing wanted an easy access CMS so I chose WordPress to knock these out. Later, I updated CTA buttons with Free Trial email forms to forward to an onboarding site.',
 
     links: [
       {
-        url: 'https://monarch.aop.com/',
+        url: 'demo1.brettsnyder.me',
         label: 'Monarch',
-      },
-      {
-        url: 'https://online.calverthomeschool.com/',
-        label: 'Calvert',
       },
     ],
 
@@ -118,19 +114,19 @@ const projects = [
 
     links: [
       {
-        url: 'https://tinyurl.com/j25pumzj',
+        url: 'https://www.figma.com/file/szhi0LuC7ONppezVLWAOrd/Dragonfly-Admin-Tool-Flow?type=design&node-id=0%3A1&t=JrqwKy1F0errT3YZ-1',
         label: 'S-1',
       },
       {
-        url: 'https://tinyurl.com/332rydtm',
+        url: 'https://www.figma.com/file/8Hy8ozuu8OWsK60GjOV5sH/Dragonfly-Admin-Tool-Designs?type=design&node-id=0%3A1&t=rQQA3Cz37YdmheE0-1',
         label: 'S-2',
       },
       {
-        url: 'https://tinyurl.com/crd43b8b',
+        url: 'https://www.figma.com/proto/1GUcUTPBXLUX7GzE5naVTT/AOP.com-Refactor?page-id=0%3A1&type=design&node-id=429-476&viewport=-1%2C486%2C0.05&scaling=scale-down&starting-point-node-id=429%3A476&show-proto-sidebar=1',
         label: 'S-3',
       },
       {
-        url: 'https://tinyurl.com/mt3wdvua',
+        url: 'https://www.figma.com/proto/5U2u2F5os9Ah6tDvgJmeDM/Homeschool-Desktop-Content-(DONE)?page-id=0%3A1&type=design&node-id=12-2&viewport=765%2C362%2C0.04&scaling=min-zoom&starting-point-node-id=12%3A2&show-proto-sidebar=1',
         label: 'S-4',
       },
     ],
@@ -171,11 +167,11 @@ export default function Projects() {
               as="li"
               key={project.name}
             >
-              <div className="relative z-10 flex items-center justify-center w-12 h-12 bg-white rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+              <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
                 <Image
                   src={project.logo}
                   alt=""
-                  className="w-8 h-8"
+                  className="h-8 w-8"
                   unoptimized
                 />
               </div>
@@ -183,8 +179,8 @@ export default function Projects() {
                 <Card>{project.name}</Card>
               </h2>
               <Card.Description>{project.description}</Card.Description>
-              <p className="relative z-10 flex flex-wrap mt-6 text-sm font-medium transition text-zinc-400 group-hover:text-teal-500 dark:text-zinc-200">
-                <LinkIcon className="flex-none w-6 h-6 mr-2" />
+              <p className="relative z-10 mt-6 flex flex-wrap text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
+                <LinkIcon className="mr-2 h-6 w-6 flex-none" />
                 {project.links.map((link) => (
                   <span
                     key={link.url}
