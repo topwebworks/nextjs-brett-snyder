@@ -96,11 +96,11 @@ const projects = [
   {
     name: 'Monarch Microsite',
     description:
-      'Here is a microsite samples I built from provided designs. Marketing wanted an easy access CMS so I chose WordPress to knock these out. Later, I updated CTA buttons with Free Trial email forms to forward to an onboarding site.',
+      'Here is a demo microsite sample I built from provided designs. Marketing wanted an easy access CMS so I chose WordPress to knock these out. Later, I updated CTA buttons with Free Trial email forms to forward to an onboarding site.',
 
     links: [
       {
-        url: 'demo1.brettsnyder.me',
+        url: 'https://demo1.brettsnyder.me/',
         label: 'Monarch',
       },
     ],
