@@ -44,10 +44,12 @@ All blocks can be moved, but what is the best default sequence? Having done some
 
 ## The Build
 
-On Friday I started round 1, knocking out the blocks Marketing initially needed. Hero, Ceneter Text, Benefits, Split L/R, CTA, and Infobar. For round 2 I would hit - tabs, videos, modal, floating button, and standalone chat. By Monday Round 1 was ready to test. To demo the template, I inspected elements in Chrome dev tools, moved and deleted blocks in-browser to create the initial wireframe they initially gave me - in just minutes. The beauty of using flex is how forgiving removing or duplicating elements is. I did not use grid as that may not cause too many issues. Kept it simple. Here is the page structure I used to get started.
+On Friday I started round 1, knocking out the blocks Marketing initially needed. Hero, Ceneter Text, Benefits, Split L/R, CTA, and Infobar. For round 2 I would hit - tabs, videos, modal, floating button, and standalone chat. By Monday Round 1 was ready to test. To demo the template, I inspected elements in Chrome dev tools, moved and deleted blocks in-browser to create the initial wireframe they initially gave me - in just minutes. The beauty of using flex is how forgiving removing or duplicating elements is. I did not use grid as that may not cause too many issues. Kept it simple. Here is the page structure I used to get started. Brand styles and Core styles should be external CSS files. The rest of the styles are in-page overrides.
 
 ```c
 <style>
+
+  @import url("../aop-brand.css");
   /* ----------------------------------------------- */
   /* ---------------- AOP BRAND START -------------- */
   /* ----------------------------------------------- */
@@ -60,6 +62,7 @@ On Friday I started round 1, knocking out the blocks Marketing initially needed.
   /* ----------------- AOP BRAND END --------------- */
   /* ----------------------------------------------- */
 
+  @import url("../core-styles.css");
   /* ----------------------------------------------- */
   /* --------------- CORE CSS STYLES --------------- */
   /* ----------------------------------------------- */
@@ -77,6 +80,7 @@ On Friday I started round 1, knocking out the blocks Marketing initially needed.
 
   /* ------- RESPONSIVE ------- */
 
+  In-page Overrides
   /* ---------------------------------------------- */
   /* ------------ YOUR OVERRIDE STYLES ------------ */
   /* -------------Just Changed Styles!------------- */
@@ -92,6 +96,8 @@ On Friday I started round 1, knocking out the blocks Marketing initially needed.
 <!-- ETC START -->
 <!-- ETC END -->
 ...
+
+<script src = "../index.js"></script>
 ```
 
 The goal was for either myself or the marketing team can cut and paste code blocks in-browser first to try out different layouts. Then to screen capture that inbrowser comp for approval. Then hand it off for asset creation or development using the master blocks template. Paste in the corresponding brand styles that include color variables and cms style overrides. To customize further, use in-browser style edits to try things out. Cut and paste from the browser into the "Your Override Styles" section. Below is the recommended&nbsp;approach:
