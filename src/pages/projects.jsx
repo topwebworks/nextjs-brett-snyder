@@ -30,7 +30,7 @@ const projects = [
         label: 'Demo',
       },
       {
-        url: 'https://www.calvertacademy.com/landing/private-learning-experience-with-accreditation/',
+        url: 'https://www.aop.com/lp/stepupforstudents',
         label: 'LP-1',
       },
       {
