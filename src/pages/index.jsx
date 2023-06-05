@@ -267,7 +267,7 @@ export default function Home({ articles }) {
               strokeWidth="1"
             >
               Brett&nbsp;Snyder
-            </RoughNotation>{' '}
+            </RoughNotation>
             , at 17 did a sketch that ended up in some stores. Spent several
             years working for corporations in graphic and web design. And now,
             making those designs come to life using code. Along the way, taught
