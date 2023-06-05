@@ -249,11 +249,7 @@ export default function Home({ articles }) {
         <title>Brett Snyder - Frontend Developer, UI/UX, Web Designer</title>
         <meta
           name="description"
-          content="I’m Brett Snyder, at 17 did a sketch that ended up in some stores. Spent several years
-          working for corporations in graphic and web design. And now, making
-          those designs come to life using code. Along the way, taught
-          hundreds of kids in Vermont and Arizona to believe in themselves
-          through gymnastics."
+          content="Brett Snyder - Frontend Developer, UI/UX, Web Designer."
         />
       </Head>
       <Container className="relative z-0 mt-9">
@@ -276,14 +272,14 @@ export default function Home({ articles }) {
             years working for corporations in graphic and web design. And now,
             making those designs come to life using code. Along the way, taught
             hundreds of kids in Vermont and Arizona to believe in themselves
-            through gymnastics.
+            through&nbsp;gymnastics.
           </p>
           <div className="mt-6 flex gap-6">
-            {/* <SocialLink
+            <SocialLink
               href="https://github.com/topwebworks"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
-            /> */}
+            />
             <SocialLink
               href="https://www.linkedin.com/in/topwebworks"
               aria-label="Follow on LinkedIn"
