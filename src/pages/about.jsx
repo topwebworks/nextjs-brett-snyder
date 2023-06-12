@@ -8,7 +8,7 @@ import { GitHubIcon, LinkedInIcon } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.jpg'
 
 import Tilt from 'react-parallax-tilt'
-import { RoughNotation, RoughNotationGroup } from 'react-rough-notation'
+// import { RoughNotation, RoughNotationGroup } from 'react-rough-notation'
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
