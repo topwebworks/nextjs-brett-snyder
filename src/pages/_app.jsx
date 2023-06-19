@@ -19,11 +19,11 @@ function usePrevious(value) {
 }
 
 export default function App({ Component, pageProps, router }) {
+  let previousPathname = usePrevious(router.pathname)
+
   useEffect(() => {
     TagManager.initialize({ gtmId: 'GTM-WJXD68H' })
   }, [])
-
-  let previousPathname = usePrevious(router.pathname)
 
   return (
     <>
