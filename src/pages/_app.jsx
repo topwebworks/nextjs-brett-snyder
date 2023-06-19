@@ -6,6 +6,8 @@ import { Header } from '@/components/Header'
 import '@/styles/tailwind.css'
 import 'focus-visible'
 
+import TagManager from 'react-gtm-module'
+
 function usePrevious(value) {
   let ref = useRef()
 
@@ -17,6 +19,10 @@ function usePrevious(value) {
 }
 
 export default function App({ Component, pageProps, router }) {
+  useEffect(() => {
+    TagManager.initialize({ gtmId: 'GTM-WJXD68H' })
+  }, [])
+
   let previousPathname = usePrevious(router.pathname)
 
   return (
