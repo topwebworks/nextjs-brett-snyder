@@ -202,6 +202,7 @@ function Resume() {
       </ol>
       <Button
         href="/resume/Brett_Snyder_Resume.pdf"
+        id="download-resume"
         target="_cv"
         variant="secondary"
         className="group mt-6 w-full"
