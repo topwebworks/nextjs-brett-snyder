@@ -92,10 +92,10 @@ export default function Uses() {
               planning to prototype...Figma does it all. Easy components and
               instances. Once you figure out the how to select groups and
               individual elements, it is a simple style reference. I prefer not
-              to use the Auto Layout feature - sounds cool but locks constrained
-              elements together just to wrap. For mobile, it is simpler just to
-              stack elements later than to have every content block element
-              locked down from the beginning.
+              to use their Auto Layout feature - sounds cool but locks
+              constrained elements together just to wrap. For mobile, it is
+              simpler just to stack elements later than to have every content
+              block element locked down from the beginning.
             </Tool>
             <Tool title="Tailwind">
               Want to use a css framework? Ultra lightweight and simple to use?
