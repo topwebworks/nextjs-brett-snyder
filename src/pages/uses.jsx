@@ -87,12 +87,15 @@ export default function Uses() {
               refactored back into your component.
             </Tool>
             <Tool title="Figma">
-              My absolute favorite web layout and collaboration tool. Easy to
-              work together in real time or leave notes. From planning to
-              prototype...Figma does it all. Once you figure out the how to
-              select groups and individual elements, it is easy to find the css
-              you need. I do not use auto layout much - but it is cool if you
-              have the time.
+              My absolute favorite web layout and collaboration tool. Easy and
+              fast way to work together in real time or leave notes. From
+              planning to prototype...Figma does it all. Easy components and
+              instances. Once you figure out the how to select groups and
+              individual elements, it is a simple style reference. I prefer not
+              to use the Auto Layout feature - sounds cool but locks constrained
+              elements together just to wrap. For mobile, it is simpler just to
+              stack elements later than to have every content block element
+              locked down from the beginning.
             </Tool>
             <Tool title="Tailwind">
               Want to use a css framework? Ultra lightweight and simple to use?
