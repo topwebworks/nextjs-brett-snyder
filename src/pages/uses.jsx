@@ -95,11 +95,11 @@ export default function Uses() {
               to use their Auto Layout feature - sounds cool but locks
               constrained elements together just to wrap. For mobile, it is
               simpler just to stack elements later than to have every content
-              block element locked down from the beginning.
+              block element locked down from the beginning. Why limit yourself?
             </Tool>
-            <Tool title="Tailwind">
+            <Tool title="Tailwind CSS">
               Want to use a css framework? Ultra lightweight and simple to use?
-              Look no further tha Tailwindcss. It comes out of the box with a
+              Look no further than Tailwindcss. It comes out of the box with a
               clean look that can easily be customized. I have been a Taiwind
               fan for several years now. Smart team.
             </Tool>
