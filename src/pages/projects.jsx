@@ -29,14 +29,6 @@ const projects = [
         url: 'https://www.brettsnyder.me/demo/master-blocks/example-aop-lp.html',
         label: 'Demo',
       },
-      {
-        url: 'https://www.aop.com/lp/stepupforstudents',
-        label: 'LP-1',
-      },
-      {
-        url: 'https://www.aop.com/lp/holiday-gift-guide',
-        label: 'LP-2',
-      },
     ],
 
     logo: logoImagine,
