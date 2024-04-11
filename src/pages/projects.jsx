@@ -102,7 +102,7 @@ const projects = [
   {
     name: 'Figma Samples',
     description:
-      'For NDA, these Figma samples are ones I did 2-3 years back, so either released or abandoned. But they do show initial IA site requirements, basic page flows with wireframes, and hi-def prototypes. Not shown here, graybox protoypes could be shoe-horned in if consumer paths need further review.',
+      'For NDA, these Figma samples are ones I did 4-5 years back, so either released or abandoned. But they do show initial IA site requirements, basic page flows with wireframes, and hi-def prototypes. Not shown here, graybox protoypes could be shoe-horned in if consumer paths need further review.',
 
     links: [
       {
