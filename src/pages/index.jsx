@@ -170,7 +170,12 @@ function Resume() {
         {resume.map((role, roleIndex) => (
           <li key={roleIndex} className="flex gap-4">
             <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
-              <Image src={role.logo} alt="" className="h-7 w-7" unoptimized />
+              <Image
+                src={role.logo}
+                alt="Logo"
+                className="h-7 w-7"
+                unoptimized
+              />
             </div>
             <dl className="flex flex-auto flex-wrap gap-x-2">
               <dt className="sr-only">Company</dt>
@@ -230,7 +235,7 @@ function Photos() {
             >
               <Image
                 src={image}
-                alt=""
+                alt="Brett Snyder Gallery"
                 sizes="(min-width: 640px) 18rem, 11rem"
                 className="absolute inset-0 h-full w-full object-cover"
                 priority
@@ -289,10 +294,10 @@ export default function Home({ articles }) {
           </div>
         </div>
         {/* Animated Background Shapes - Experimental */}
-        <div className="absolute top-0 right-10 -z-10 h-64 w-full max-w-lg lg:right-10 xl:opacity-90">
-          <div className="absolute top-0 -left-4 h-56 w-56 animate-blob rounded-full bg-purple-600 opacity-20 mix-blend-multiply blur-xl filter sm:h-72 sm:w-72"></div>
-          <div className="animation-delay-2000 absolute top-0 right-4 h-56 w-56 animate-blob rounded-full bg-green-600 opacity-20 mix-blend-multiply blur-xl filter sm:h-72 sm:w-72"></div>
-          <div className="animation-delay-4000 absolute top-0 left-20 h-56 w-56 animate-blob rounded-full bg-orange-600 opacity-20 mix-blend-multiply blur-xl filter sm:h-72 sm:w-72"></div>
+        <div className="absolute right-10 top-0 -z-10 h-64 w-full max-w-lg lg:right-10 xl:opacity-90">
+          <div className="absolute -left-4 top-0 h-56 w-56 animate-blob rounded-full bg-purple-600 opacity-20 mix-blend-multiply blur-xl filter sm:h-72 sm:w-72"></div>
+          <div className="animation-delay-2000 absolute right-4 top-0 h-56 w-56 animate-blob rounded-full bg-green-600 opacity-20 mix-blend-multiply blur-xl filter sm:h-72 sm:w-72"></div>
+          <div className="animation-delay-4000 absolute left-20 top-0 h-56 w-56 animate-blob rounded-full bg-orange-600 opacity-20 mix-blend-multiply blur-xl filter sm:h-72 sm:w-72"></div>
         </div>
       </Container>
       <Photos />
