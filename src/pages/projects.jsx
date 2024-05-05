@@ -92,7 +92,7 @@ const projects = [
 
     links: [
       {
-        url: 'https://demo1.brettsnyder.me/',
+        url: 'https://www.brettsnyder.me/demo/monarch-demo.jpg',
         label: 'Monarch',
       },
     ],
