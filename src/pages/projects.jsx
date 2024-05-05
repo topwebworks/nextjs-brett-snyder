@@ -88,7 +88,7 @@ const projects = [
   {
     name: 'Monarch Microsite',
     description:
-      'Here is the demo microsite I built alongside the catalog prototype from provided designs. Marketing wanted an easy access CMS so I chose WordPress. Later, I updated CTA buttons with Free Trial email forms to forward to an onboarding site. Links, tracking, & forms are not active.',
+      'Here is the microsite I built alongside the catalog prototype from provided designs. Marketing wanted an easy access CMS so I chose WordPress. Later, I updated CTA buttons with Free Trial email forms to forward to an onboarding site. Lasted several years before switching to another platform.',
 
     links: [
       {
