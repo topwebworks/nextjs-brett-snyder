@@ -55,7 +55,7 @@ const projects = [
   {
     name: 'Escape Room 60',
     description:
-      'They wanted a more performant modern solution than their current WordPress site. Kept header branding, but went with a Next.js refactor that included large content images for more interest. Why? With Next.js baked-in image optimization, the site loads very fast. Also, piping in lazy loaded images from the tidy WordPress media library.',
+      'They wanted a more performant modern solution than their current WordPress site. Kept header branding, but went with a Next.js refactor that included large content images for more interest. Why? With Next.js baked-in image optimization, the site loads very fast.',
 
     links: [
       { url: 'https://nextjs-escaperoom60.vercel.app/', label: 'Dev Site' },
