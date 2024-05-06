@@ -26,7 +26,7 @@ export function Footer() {
                 <NavLink href="/projects">Projects</NavLink>
                 <NavLink href="/uses">Uses</NavLink>
               </div>
-              <p className="mx-auto max-w-[550px] text-sm text-zinc-400 dark:text-zinc-500">
+              <p className="mx-auto max-w-[550px] text-center text-sm text-zinc-400 dark:text-zinc-500">
                 &copy; {new Date().getFullYear()} Brett Snyder.
                 All&nbsp;rights&nbsp;reserved.
               </p>
