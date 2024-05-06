@@ -279,7 +279,7 @@ export default function Home({ articles }) {
             making those designs come to life using code. Along the way, taught
             hundreds of kids in Vermont and Arizona to believe in themselves
             through gymnastics. This site is a collection of my interests and
-            some projects I have&nbsp;done. About&nbsp;me.
+            some projects I have&nbsp;done.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
