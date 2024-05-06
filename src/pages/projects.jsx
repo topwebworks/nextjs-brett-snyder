@@ -147,7 +147,7 @@ export default function Projects() {
       </Head>
       <SimpleLayout
         title="Things I’ve made."
-        intro="I’ve worked on tons of projects over the years; here are some of my favorites. Will spare you the image gallery - each project has a brief summary with some sample links."
+        intro="I’ve worked on tons of projects over the years; here are some of my favorites. Each project has a brief summary and some sample links."
       >
         <ul
           role="list"

@@ -252,7 +252,7 @@ export default function Home({ articles }) {
   return (
     <>
       <Head>
-        <title>Brett Snyder - Frontend Developer, UI/UX, Web Designer</title>
+        <title>Brett Snyder - Artist. Coach. Designer. Dev.</title>
         <meta
           name="description"
           content="Brett Snyder - Frontend Developer, UI/UX, Web Designer."
