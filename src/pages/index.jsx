@@ -222,6 +222,14 @@ function Resume() {
 function Photos() {
   let rotations = ['rotate-2', '-rotate-2', 'rotate-2', 'rotate-2', '-rotate-2']
 
+  const imageUrls = [
+    '/articles/jesus-christ-art',
+    '/articles/funastics',
+    '/projects',
+    '/about',
+    '/about',
+  ]
+
   return (
     <div className="mt-16 sm:mt-20">
       <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
@@ -233,13 +241,17 @@ function Photos() {
                 rotations[imageIndex % rotations.length]
               )}
             >
-              <Image
-                src={image}
-                alt="Brett Snyder Gallery"
-                sizes="(min-width: 640px) 18rem, 11rem"
-                className="absolute inset-0 h-full w-full object-cover"
-                priority
-              />
+              <Link href={imageUrls[imageIndex]}>
+                <a>
+                  <Image
+                    src={image}
+                    alt="Brett Snyder Gallery"
+                    sizes="(min-width: 640px) 18rem, 11rem"
+                    className="absolute inset-0 h-full w-full object-cover transition-opacity hover:opacity-80"
+                    priority
+                  />
+                </a>
+              </Link>
             </div>
           </Tilt>
         ))}
