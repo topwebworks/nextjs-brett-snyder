@@ -205,16 +205,16 @@ function Resume() {
           </li>
         ))}
       </ol>
-      <Button
+      {/* <Button
         href="/resume/Brett_Snyder_Resume.pdf"
         id="download-resume"
         target="_cv"
         variant="secondary"
-        className="group mt-6 w-full"
+        className="w-full mt-6 group"
       >
         Download CV
-        <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
-      </Button>
+        <ArrowDownIcon className="w-4 h-4 transition stroke-zinc-400 group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
+      </Button> */}
     </div>
   )
 }
@@ -278,7 +278,8 @@ export default function Home({ articles }) {
             years working for corporations in graphic and web design. And now,
             making those designs come to life using code. Along the way, taught
             hundreds of kids in Vermont and Arizona to believe in themselves
-            through&nbsp;gymnastics.
+            through gymnastics. This site is a collection of my interests and
+            some projects I have&nbsp;done. About&nbsp;me.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
@@ -286,11 +287,11 @@ export default function Home({ articles }) {
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
-            <SocialLink
+            {/* <SocialLink
               href="https://www.linkedin.com/in/topwebworks"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
-            />
+            /> */}
           </div>
         </div>
         {/* Animated Background Shapes - Experimental */}

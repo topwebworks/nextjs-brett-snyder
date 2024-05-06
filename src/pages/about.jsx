@@ -190,7 +190,11 @@ export default function About() {
                 the next year and a half, I was passed around to a few different
                 departments building niche CMS sites for them.
               </p>
-              <p>...more to come.</p>
+              <p>
+                ...several years have past. I am happily working at Imagine
+                Learning moving from Senior Designer, UI/UX, to Frontend Dev.
+                Much to learn, much to look forward to.
+              </p>
             </div>
           </div>
           <div className="lg:pl-20">
