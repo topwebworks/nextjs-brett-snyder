@@ -58,20 +58,20 @@ export default function Uses() {
             </Tool>
             <Tool title="Laptop Stand and Fan">
               My laptop is kept cool by using a portable iVoler laptop stand on
-              the highest setting. Then a small Vornado destop fan behind it. I
-              can angle the fan a bit towards me if I want a breeze. Better than
-              a standard laptop cooler tray.
+              the highest setting. Then a small Vornado Zippi destop fan behind
+              it. I can angle the fan a bit towards me if I want a breeze.
+              Better than a standard laptop cooler tray.
             </Tool>
-            <Tool title="Logitech MX Keys">
-              I had a Logitech mechanical gaming keyboard. All the bells and
-              whistles - so rad. Gave it to my son after trying the MX Keys. Has
-              3 bluetooth keys for multiple devices. Thin profile. Each charge
-              lasts a long time. Feels great to type on it.
+            <Tool title="Logitech G915 TKL Keyboard">
+              I had a large gaming keyboard. All the bells and whistles - so
+              rad. Gave it to my son after trying the TKL. Thin profile, super
+              fast. Wifi and Bluetooth. Each charge lasts a long time. Feels
+              great to type on it.
             </Tool>
-            <Tool title="Logitech MX Master and G502">
-              Mainly run my wired G502 mouse. All the buttons I will ever need.
-              Feels great in-hand. When I go remote, I switch to the MX Master.
-              They are both several years old - I heart them both.
+            <Tool title="Logitech G502 X with G Powerplay">
+              Used to run wired G502 mouse. All the buttons I will ever need.
+              Feels great in-hand. Now I have the wireless version with the
+              charging pad so never run out of juice
             </Tool>
           </ToolsSection>
           <ToolsSection title="Software">
