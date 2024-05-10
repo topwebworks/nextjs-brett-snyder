@@ -7,9 +7,6 @@ import { Container } from '@/components/Container'
 import { GitHubIcon, LinkedInIcon } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.jpg'
 
-// import Tilt from 'react-parallax-tilt'
-// import { RoughNotation, RoughNotationGroup } from 'react-rough-notation'
-
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
     <li className={clsx(className, 'flex')}>
