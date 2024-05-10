@@ -5,7 +5,6 @@ import Link from 'next/link'
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 
-import logoPlanetaria from '@/images/logos/planetaria.svg'
 import logoImagine from '@/images/logos/il-logo.svg'
 import logoAloTrack from '@/images/logos/at-logo.svg'
 import logoEr60 from '@/images/logos/er60-logo.svg'
@@ -62,10 +61,10 @@ const projects = [
         url: 'https://www.brettsnyder.me/demo/escaperoom60-demo.jpg',
         label: 'Image',
       },
-      // {
-      //   url: 'https://github.com/topwebworks/nextjs-escaperoom60',
-      //   label: 'Repo',
-      // },
+      {
+        url: 'https://github.com/topwebworks/nextjs-escaperoom60',
+        label: 'Repo',
+      },
     ],
 
     logo: logoEr60,
