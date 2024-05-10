@@ -55,10 +55,17 @@ const projects = [
   {
     name: 'Escape Room 60',
     description:
-      'They wanted a more performant modern solution than their current WordPress site. Kept header branding, but went with a Next.js refactor that included large content images for more interest. Why? With Next.js baked-in image optimization, the site loads very fast.',
+      'They wanted a more performant modern solution than their current WordPress site. Kept header branding, but went with a Next.js refactor that included large content images for more interest. Why? With Next.js baked-in image optimization, the site loads very fast. I placed a screenshot while I wait for them to go live.',
 
     links: [
-      { url: 'https://nextjs-escaperoom60.vercel.app/', label: 'Dev Site' },
+      {
+        url: 'https://www.brettsnyder.me/demo/escaperoom60-demo.jpg',
+        label: 'Image',
+      },
+      // {
+      //   url: 'https://github.com/topwebworks/nextjs-escaperoom60',
+      //   label: 'Repo',
+      // },
     ],
 
     logo: logoEr60,
@@ -93,7 +100,7 @@ const projects = [
     links: [
       {
         url: 'https://www.brettsnyder.me/demo/monarch-demo.jpg',
-        label: 'Monarch',
+        label: 'Image',
       },
     ],
 
