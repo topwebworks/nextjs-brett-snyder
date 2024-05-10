@@ -71,7 +71,7 @@ export default function Uses() {
             <Tool title="Logitech G502 X with G Powerplay">
               Used to run wired G502 mouse. All the buttons I will ever need.
               Feels great in-hand. Now I have the wireless version with the
-              charging pad so never run out of juice
+              charging pad so never run out of juice.
             </Tool>
           </ToolsSection>
           <ToolsSection title="Software">
