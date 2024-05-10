@@ -61,10 +61,6 @@ const projects = [
         url: 'https://www.brettsnyder.me/demo/escaperoom60-demo.jpg',
         label: 'Image',
       },
-      {
-        url: 'https://github.com/topwebworks/nextjs-escaperoom60',
-        label: 'Repo',
-      },
     ],
 
     logo: logoEr60,
