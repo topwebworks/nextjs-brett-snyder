@@ -54,7 +54,7 @@ const projects = [
   {
     name: 'Escape Room 60',
     description:
-      'They wanted a more performant modern solution than their current WordPress site. Kept header branding, but went with a Next.js refactor that included large content images for more interest. Why? With Next.js baked-in image optimization, the site loads very fast. I placed a screenshot while I wait for them to go live.',
+      'They wanted a more performant modern solution than their current WordPress site I did for them years ago. Kept header branding, but went with a Next.js refactor that included large content images for more interest. Why? With Next.js baked-in image optimization, the site loads very fast. The client is very happy but has yet to make the switch.',
 
     links: [
       {
@@ -90,7 +90,7 @@ const projects = [
   {
     name: 'Monarch Microsite',
     description:
-      'Here is the microsite I built alongside the catalog prototype from provided designs. Marketing wanted an easy access CMS so I chose WordPress. Later, I updated CTA buttons with Free Trial email forms to forward to an onboarding site. EDIT: This microsite will retire soon, I placed a screenshot.',
+      'Here is the microsite I built alongside the catalog prototype from provided designs. Marketing wanted an easy access CMS so I chose WordPress. Later, I updated CTA buttons with Free Trial email forms to forward to an onboarding site. EDIT: This microsite will retire soon, here is a screenshot.',
 
     links: [
       {
