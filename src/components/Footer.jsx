@@ -30,10 +30,10 @@ export function Footer() {
                 &copy; {new Date().getFullYear()} Brett Snyder.
                 All&nbsp;rights&nbsp;reserved.
               </p>
-              <p className="mx-auto max-w-[675px] pt-4 text-center text-[11px] text-zinc-400 dark:text-zinc-500">
+              <p className="mx-auto max-w-[690px] pt-4 text-center text-[11px] text-zinc-400 dark:text-zinc-500">
                 <strong>Cookie Disclaimer:</strong> I use basic Google cookies
-                to follow country, and page view stats. YouTube cookies pulled
-                from Master Blocks article demo. No PII is collected.
+                to follow country, and page view stats. YouTube and Chat cookies
+                pulled from Master Blocks article demos. No PII is collected.
                 BrettSnyder.me is a non-commercial site about me that does not
                 monetize or sell lead&nbsp;information.{' '}
                 <a
