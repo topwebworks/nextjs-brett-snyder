@@ -34,7 +34,7 @@ export function Footer() {
                 <strong>Cookie Disclaimer:</strong> I use basic Google cookies
                 to follow country, and page view stats. No PII is collected.
                 BrettSnyder.me is a non-commercial site about me that does not
-                capture or sell lead&nbsp;information.{' '}
+                monetize or sell lead&nbsp;information.{' '}
                 <a
                   id="cookie-preferences"
                   href="#"
