@@ -8,6 +8,8 @@ import { SimpleLayout } from '@/components/SimpleLayout'
 import logoImagine from '@/images/logos/il-logo.svg'
 import logoAloTrack from '@/images/logos/at-logo.svg'
 import logoEr60 from '@/images/logos/er60-logo.svg'
+import logoInspire from '@/images/logos/insp-logo.svg'
+import logoJCA from '@/images/logos/jca-logo.svg'
 
 const projects = [
   {
@@ -126,6 +128,34 @@ const projects = [
     ],
 
     logo: logoImagine,
+  },
+  {
+    name: 'Jesus Christ Art',
+    description:
+      'Simple static Nextjs site to give away Jesus Christ art I did. I stripped away some intial sections and navigation as research showed it was cluttering the reading experience. The site started as why I drew my two Christ sketches many years ago. It has expanded into composite images using various local laptop AI tools in a multilayer process for elements, manual digital painting and touchup, and combining and restructuring each composite in PhotoShop.',
+
+    links: [
+      {
+        url: 'https://www.jesuschrist.art/',
+        label: 'Site',
+      },
+    ],
+
+    logo: logoJCA,
+  },
+  {
+    name: 'Inspiration Library',
+    description:
+      'My Inspiration Libray was built in in Nextjs as a safe place to post my favovite inspirational short stories. A journal to expand the message started with JesusChrist.art. I wanted to keep the two sites separate so not too overwhelming. I intentionally kept it just text, no images. Easy to access on my phone or copy and paste from. I use it all the time.',
+
+    links: [
+      {
+        url: 'https://inspire.jesuschrist.art/',
+        label: 'Site',
+      },
+    ],
+
+    logo: logoInspire,
   },
 ]
 
