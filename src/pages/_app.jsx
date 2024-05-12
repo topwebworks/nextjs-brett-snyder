@@ -22,6 +22,18 @@ export default function App({ Component, pageProps, router }) {
   let previousPathname = usePrevious(router.pathname)
 
   useEffect(() => {
+    // Create script element
+    const script = document.createElement('script')
+
+    // Set script attributes
+    script.src =
+      'https://app.termly.io/resource-blocker/e5989bc1-23f6-49eb-ad6a-ad9c018e093f?autoBlock=on'
+    script.type = 'text/javascript'
+
+    // Append script to the body
+    document.body.appendChild(script)
+
+    // Initialize Tag Manager
     TagManager.initialize({ gtmId: 'GTM-WJXD68H' })
   }, [])
 
