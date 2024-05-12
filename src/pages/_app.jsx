@@ -33,8 +33,11 @@ export default function App({ Component, pageProps, router }) {
     // Append script to head
     document.head.prepend(script)
 
-    // Initialize Tag Manager
-    TagManager.initialize({ gtmId: 'GTM-WJXD68H' })
+    // Make sure the script is loaded before initializing Tag Manager
+    script.onload = function () {
+      // Initialize Tag Manager
+      TagManager.initialize({ gtmId: 'GTM-WJXD68H' })
+    }
   }, [])
 
   return (
