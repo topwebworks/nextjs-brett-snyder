@@ -132,7 +132,7 @@ const projects = [
   {
     name: 'Jesus Christ Art',
     description:
-      'Simple static Nextjs site to give away Jesus Christ art I did. I stripped away some intial sections and navigation as research showed it was cluttering the reading experience. The site started as why I drew my two Christ sketches many years ago. It has expanded into composite images using various local laptop AI tools in a multilayer process for elements, manual digital painting and touchup, and combining and restructuring each composite in PhotoShop.',
+      'I made a basic Nextjs static page to share my Jesus Christ artwork. After research, I removed the nav and some sections that were killing the flow. It all began with me explaining why I drew two Christ sketches a long time ago. Now, it&apos;s grown to include composite images made with different AI tools on my laptop in a multilayered process. Do manual digital painting and touch-ups, and then composite and restructure everything in Photoshop.',
 
     links: [
       {
@@ -146,7 +146,7 @@ const projects = [
   {
     name: 'Inspiration Library',
     description:
-      'My Inspiration Libray was built in in Nextjs as a safe place to post my favovite inspirational short stories. A journal to expand the message started with JesusChrist.art. I wanted to keep the two sites separate so not too overwhelming. I intentionally kept it just text, no images. Easy to access on my phone or copy and paste from. I use it all the time.',
+      'I created the Inspiration Library using Nextjs as a safe spot for sharing my favorite short inspirational stories. It began as an extension of the message on JesusChrist.art. I decided to keep them separate to avoid overwhelming visitors. I deliberately made it text-only, no images, for easy access on phones and easy copying. I use it frequently.',
 
     links: [
       {
