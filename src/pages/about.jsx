@@ -211,11 +211,11 @@ export default function About() {
                 Follow on LinkedIn
               </SocialLink>
               <SocialLink
-                href="mailto:info@brettsnyder.me"
+                href="mailto:hello@brettsnyder.me"
                 icon={MailIcon}
                 className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
-                info@brettsnyder.me
+                hello@brettsnyder.me
               </SocialLink>
             </ul>
           </div>
