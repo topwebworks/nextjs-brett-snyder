@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useState, useEffect, useRef } from 'react'
 
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
@@ -19,7 +19,12 @@ function usePrevious(value) {
 }
 
 export default function App({ Component, pageProps, router }) {
+  const [isMounted, setIsMounted] = useState(false)
   let previousPathname = usePrevious(router.pathname)
+
+  useEffect(() => {
+    setIsMounted(true)
+  }, [])
 
   useEffect(() => {
     // Create script element
@@ -45,6 +50,10 @@ export default function App({ Component, pageProps, router }) {
       gtag('config', 'GTM-WJXD68H')
     }
   }, [])
+
+  if (!isMounted) {
+    return null // or a loading spinner, etc.
+  }
 
   return (
     <>
