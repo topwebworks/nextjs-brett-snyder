@@ -6,7 +6,7 @@ import { Header } from '@/components/Header'
 import '@/styles/tailwind.css'
 import 'focus-visible'
 
-import TagManager from 'react-gtm-module'
+// import TagManager from 'react-gtm-module'
 
 function usePrevious(value) {
   let ref = useRef()
