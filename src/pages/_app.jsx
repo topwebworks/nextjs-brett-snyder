@@ -25,18 +25,24 @@ export default function App({ Component, pageProps, router }) {
     // Create script element
     const script = document.createElement('script')
 
-    // Set script attributes
+    // Set termly script attributes
     script.src =
       'https://app.termly.io/resource-blocker/e5989bc1-23f6-49eb-ad6a-ad9c018e093f?autoBlock=on'
     script.type = 'text/javascript'
 
-    // Append script to head
+    // Append termly script to head
     document.head.prepend(script)
 
-    // Make sure the script is loaded before initializing Tag Manager
+    // Make sure the termly script is loaded before initializing Tag Manager
     script.onload = function () {
       // Initialize Tag Manager
-      TagManager.initialize({ gtmId: 'GTM-WJXD68H' })
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'GTM-WJXD68H')
     }
   }, [])
 
