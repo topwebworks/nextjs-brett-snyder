@@ -50,6 +50,7 @@ export default function About() {
                 sizes="(min-width: 1024px) 32rem, 20rem"
                 className="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover grayscale-0 filter dark:bg-zinc-800"
                 priority
+                style={{ width: '100%', height: 'auto' }}
               />
             </div>
             {/* </Tilt> */}
@@ -110,13 +111,14 @@ export default function About() {
                 was excited to learn more web tech from Studeo. Websites, web
                 banners, ads, brochures. This was before the days of cms sites,
                 or CSS3 &amp; JQuery. Palm Pilot was a thing, responsive
-                websites were not. One of my first personal
+                websites were not. One of my first personal{' '}
                 <Link
-                  target="samples"
                   href="http://www.topwebworks.com/assets/misc/pushpad/v2"
+                  target="samples"
+                  className="text-teal-500"
                 >
-                  <a className="text-teal-500"> html&nbsp;sites (v2) </a>
-                </Link>
+                  html&nbsp;sites (v2)
+                </Link>{' '}
                 created buzz being a site of the day somewhere was featured in a
                 local newspaper, included in a course book about frames, and
                 posted on coolhomepages.com. My Earthlink bill that month was

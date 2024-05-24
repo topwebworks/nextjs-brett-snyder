@@ -1,12 +1,11 @@
 import { useState, useEffect, useRef } from 'react'
+import TagManager from 'react-gtm-module'
 
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 
 import '@/styles/tailwind.css'
 import 'focus-visible'
-
-// import TagManager from 'react-gtm-module'
 
 function usePrevious(value) {
   let ref = useRef()
@@ -27,27 +26,10 @@ export default function App({ Component, pageProps, router }) {
   }, [])
 
   useEffect(() => {
-    // Create script element
-    const script = document.createElement('script')
-
-    // Set termly script attributes
-    script.src =
-      'https://app.termly.io/resource-blocker/e5989bc1-23f6-49eb-ad6a-ad9c018e093f?autoBlock=on'
-    script.type = 'text/javascript'
-
-    // Append termly script to head
-    document.head.prepend(script)
-
-    // Make sure the termly script is loaded before initializing Tag Manager
-    script.onload = function () {
-      // Initialize Tag Manager
-      window.dataLayer = window.dataLayer || []
-      function gtag() {
-        dataLayer.push(arguments)
-      }
-      gtag('js', new Date())
-
-      gtag('config', 'GTM-WJXD68H')
+    // Initialize GTM
+    if (!window.gtmInitialized) {
+      TagManager.initialize({ gtmId: 'GTM-WJXD68H' })
+      window.gtmInitialized = true
     }
   }, [])
 

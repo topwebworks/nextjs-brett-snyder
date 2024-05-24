@@ -241,16 +241,14 @@ function Photos() {
                 rotations[imageIndex % rotations.length]
               )}
             >
-              <Link href={imageUrls[imageIndex]}>
-                <a>
-                  <Image
-                    src={image}
-                    alt="Brett Snyder Gallery"
-                    sizes="(min-width: 640px) 18rem, 11rem"
-                    className="absolute inset-0 h-full w-full object-cover transition-opacity hover:opacity-80"
-                    priority
-                  />
-                </a>
+              <Link href={imageUrls[imageIndex]} passHref>
+                <Image
+                  src={image}
+                  alt="Brett Snyder Gallery"
+                  sizes="(min-width: 640px) 18rem, 11rem"
+                  className="absolute inset-0 h-full w-full object-cover transition-opacity hover:opacity-80"
+                  priority
+                />
               </Link>
             </div>
           </Tilt>
