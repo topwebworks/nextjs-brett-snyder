@@ -1,5 +1,4 @@
 import { Head, Html, Main, NextScript } from 'next/document'
-import Script from 'next/script' // Import Script from next/script
 
 const modeScript = `
   let darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
@@ -41,11 +40,6 @@ export default function Document() {
     <Html className="h-full antialiased" lang="en">
       <Head>
         <script dangerouslySetInnerHTML={{ __html: modeScript }} />
-        <Script
-          id="termly-script"
-          src="https://app.termly.io/resource-blocker/e5989bc1-23f6-49eb-ad6a-ad9c018e093f"
-          strategy="afterInteractive"
-        />
         <link
           rel="alternate"
           type="application/rss+xml"

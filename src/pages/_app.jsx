@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import TagManager from 'react-gtm-module'
+import Head from 'next/head'
 
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
@@ -26,9 +27,22 @@ export default function App({ Component, pageProps, router }) {
   }, [])
 
   useEffect(() => {
+    // Add Termly script
+    if (!window.termlyInitialized) {
+      const termlyScript = document.createElement('script')
+      termlyScript.src =
+        'https://app.termly.io/resource-blocker/e5989bc1-23f6-49eb-ad6a-ad9c018e093f'
+      termlyScript.async = false
+      document.head.prepend(termlyScript)
+      window.termlyInitialized = true
+    }
+
     // Initialize GTM
     if (!window.gtmInitialized) {
-      TagManager.initialize({ gtmId: 'GTM-WJXD68H' })
+      const gtmScript = document.createElement('script')
+      gtmScript.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-WJXD68H'
+      gtmScript.async = false
+      document.head.prepend(gtmScript)
       window.gtmInitialized = true
     }
   }, [])
