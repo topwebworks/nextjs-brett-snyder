@@ -37,12 +37,9 @@ export default function App({ Component, pageProps, router }) {
       window.termlyInitialized = true
     }
 
-    // Initialize GTM
+    // Initialize GTM using react-gtm-module
     if (!window.gtmInitialized) {
-      const gtmScript = document.createElement('script')
-      gtmScript.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-WJXD68H'
-      gtmScript.async = false
-      document.head.prepend(gtmScript)
+      TagManager.initialize({ gtmId: 'GTM-WJXD68H' })
       window.gtmInitialized = true
     }
   }, [])
