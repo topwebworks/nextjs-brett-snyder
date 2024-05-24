@@ -44,7 +44,7 @@ export default function Document() {
         <Script
           id="termly-script"
           src="https://app.termly.io/resource-blocker/e5989bc1-23f6-49eb-ad6a-ad9c018e093f"
-          strategy="beforeInteractive"
+          strategy="afterInteractive"
         />
         <link
           rel="alternate"
