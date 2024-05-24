@@ -117,7 +117,7 @@ export default function About() {
                   target="samples"
                   className="text-teal-500"
                 >
-                  html&nbsp;sites (v2)
+                  html&nbsp;sites
                 </Link>{' '}
                 created buzz being a site of the day somewhere was featured in a
                 local newspaper, included in a course book about frames, and
