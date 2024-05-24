@@ -113,7 +113,7 @@ export default function About() {
                 or CSS3 &amp; JQuery. Palm Pilot was a thing, responsive
                 websites were not. One of my first personal{' '}
                 <Link
-                  href="http://www.topwebworks.com/assets/misc/pushpad/v2"
+                  href="http://www.brettsnyder.me/demo/pushpad-screen.jpg"
                   target="samples"
                   className="text-teal-500"
                 >
