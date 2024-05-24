@@ -31,7 +31,7 @@ export default function App({ Component, pageProps, router }) {
     if (!window.termlyInitialized) {
       const termlyScript = document.createElement('script')
       termlyScript.src =
-        'https://app.termly.io/resource-blocker/e5989bc1-23f6-49eb-ad6a-ad9c018e093f'
+        'https://app.termly.io/resource-blocker/e5989bc1-23f6-49eb-ad6a-ad9c018e093f?autoBlock=off'
       termlyScript.async = false
       document.head.prepend(termlyScript)
       window.termlyInitialized = true
