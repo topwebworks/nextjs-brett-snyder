@@ -132,7 +132,7 @@ const projects = [
   {
     name: 'Jesus Christ Art',
     description:
-      'I made a basic Nextjs static page to share my Jesus Christ artwork. After research, I removed the nav and some sections that were killing the flow. It all began with me explaining why I drew two Christ sketches a long time ago. Now, it&apos;s grown to include composite images. I used a multilevel process of various AI tools alongside countless ongoing iterations of manual digital painting to restructure and refine each composite element.',
+      'I made a basic Nextjs static page to share my Jesus Christ artwork. After research, I removed the nav and some sections that were killing the user flow. It all began with me explaining why I drew two Christ sketches a long time ago. Now, it has grown to include composite images. I used a variety of local beta AI tools to create starting elements. Then, I manually refined each element of the composite portraits.',
 
     links: [
       {
