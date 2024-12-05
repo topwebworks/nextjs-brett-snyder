@@ -160,7 +160,7 @@ const projects = [
   {
     name: 'Shopify UI Engineer',
     description:
-      'We switched from a Custom CMS to Shopify. I rebuilt many marketing landing and blog pages using a branded theme. Customized the look of existing content sections, installed Klaviyo forms, and designed and developed marketing content sections using HTML, CSS, JS, Liquid, and JSON. I also created collections, Navigation, content templates, and installed several Shopify store apps.',
+      'We switched from a Custom CMS to Shopify. I rebuilt many marketing landing and blog pages using a branded Shopify theme. Customized the look of existing content sections, installed Klaviyo forms, and designed and developed marketing content sections using HTML, CSS, JS, Liquid, and JSON. I also created collections, Navigation, content templates, and installed several Shopify store apps.',
 
     links: [
       {
