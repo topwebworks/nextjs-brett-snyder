@@ -157,6 +157,20 @@ const projects = [
 
     logo: logoInspire,
   },
+  {
+    name: 'Shopify UI Engineer',
+    description:
+      'We switched from a Custom CMS to Shopify. I rebuilt many marketing landing and blog pages. Customized look of existing sections and learned to create basic custom content sections using HTML, CSS, JS, Liquid, JSON. I also created collections, Navigation, content templates, installed Shopify Apps, and edited the theme at the UI level.',
+
+    links: [
+      {
+        url: 'https://aop.com/pages/mktg-custom-dev',
+        label: 'Custom Built Sections',
+      },
+    ],
+
+    logo: logoImagine,
+  },
 ]
 
 function LinkIcon(props) {
