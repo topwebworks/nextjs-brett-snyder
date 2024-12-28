@@ -160,12 +160,12 @@ const projects = [
   {
     name: 'Shopify UI',
     description:
-      'We switched from a custom CMS to Shopify. I rebuilt many marketing landing and blog pages using a branded Shopify theme. Customized the look of existing content sections, and installed Klaviyo forms. Designed and developed marketing content sections using HTML, CSS, JS, Liquid, and JSON. I also created collections, navigation, content templates, and installed several Shopify store apps.',
+      'We switched from a custom CMS to Shopify. I rebuilt many marketing landing and blog pages using a branded Shopify theme. Customized the look of existing content sections, and installed Klaviyo forms. Designed and developed new marketing sections using HTML, CSS, JS, Liquid, and JSON. I also created collections, navigation, content templates, and installed several Shopify store apps.',
 
     links: [
       {
         url: 'https://aop.com/pages/mktg-custom-dev',
-        label: 'Custom Built Sections',
+        label: 'Custom Liquid Sections',
       },
     ],
 
