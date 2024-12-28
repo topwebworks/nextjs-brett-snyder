@@ -146,7 +146,7 @@ const projects = [
   {
     name: 'Inspiration Library',
     description:
-      'I created the Inspiration Library using Nextjs as a safe spot for sharing my favorite short inspirational stories. It began as an extension of the message on JesusChrist.art. I decided to keep them separate to avoid overwhelming visitors. I deliberately made it text-only, no images, for easy access on phones and easy copying. I use it frequently.',
+      'I created the Inspiration Library using Nextjs as a safe spot for sharing my favorite short inspirational stories. It began as an extension of the message on JesusChrist.art. I decided to keep them separate to avoid overwhelming visitors. I deliberately made it text-only, no images, for easy access on phones and easy copying.',
 
     links: [
       {
