@@ -28,7 +28,7 @@ export function Footer() {
               </div>
               <p className="w-full mx-auto text-xs text-center text-zinc-400 dark:text-zinc-500 sm:text-sm">
                 &copy; {new Date().getFullYear()} Brett Snyder.
-                All&nbsp;rights&nbsp;reserved.
+                All&nbsp;rights&nbsp;reserved. 
               </p>
               <p className="mx-auto max-w-[750px] pt-4 text-center text-[11px] text-zinc-400 dark:text-zinc-500">
                 <strong>Cookies:</strong> I use basic Google cookies
