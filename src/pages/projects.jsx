@@ -146,7 +146,7 @@ const projects = [
   {
     name: 'Inspiration Library',
     description:
-      'I created the Inspiration Library using Nextjs as a safe spot for sharing my favorite short inspirational stories. It began as an extension of the message on JesusChrist.art. I decided to keep them separate to avoid overwhelming visitors. I deliberately made it text-only, no images, for easy access on phones and easy copying.',
+      'I created the Inspiration Library using Nextjs as a safe blog for sharing my favorite short inspirational stories and thoughts. It began as an extension of the message on JesusChrist.art. I decided to keep them separate to avoid overwhelming visitors. I deliberately made it text-only, no images, for easy access on phones and easy copying.',
 
     links: [
       {
@@ -160,7 +160,7 @@ const projects = [
   {
     name: 'Shopify UI',
     description:
-      'We switched from a custom CMS to Shopify. I rebuilt many marketing landing and blog pages using a branded Shopify theme. Customized the look of existing content sections, and installed Klaviyo forms. Designed and developed new marketing sections using HTML, CSS, JS, Liquid, and JSON. I also created collections, navigation, content templates, and installed several Shopify store apps.',
+      'We switched from a custom CMS to Shopify. I rebuilt many marketing landing and blog pages using a branded Shopify theme. Customized the look of existing content sections, and installed Klaviyo forms. I also created collections, navigation, content templates, and installed several Shopify store apps. Designed and developed new custom marketing sections using HTML, CSS, JS, Liquid, and JSON. ',
 
     links: [
       {
