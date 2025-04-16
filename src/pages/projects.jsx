@@ -167,6 +167,10 @@ const projects = [
         url: 'https://aop.com/pages/mktg-custom-dev',
         label: 'Custom Liquid Sections',
       },
+      {
+        url: 'https://www.brettsnyder.me/demo/shopify-custom-sections.jpg',
+        label: 'Image',
+      },
     ],
 
     logo: logoImagine,
