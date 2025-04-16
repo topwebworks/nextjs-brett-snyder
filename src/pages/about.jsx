@@ -191,7 +191,7 @@ export default function About() {
               </p>
               <p>
                 ...several years have past. I am happily working at Imagine
-                Learning moving from Senior Designer, UI/UX, to Frontend Dev.
+                Learning - Home Learning Marketing department moving from Senior Designer, UI/UX, to Frontend Dev.
                 Much to learn, much to look forward to.
               </p>
             </div>
