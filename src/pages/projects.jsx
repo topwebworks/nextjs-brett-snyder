@@ -23,11 +23,11 @@ const projects = [
         label: 'Figma',
       },
       {
-        url: 'https://www.brettsnyder.me/demo/master-blocks/aop-master-lp-blocks.html',
+        url: 'https://www.topwebwork.com/demo/master-blocks/aop-master-lp-blocks.html',
         label: 'Template',
       },
       {
-        url: 'https://www.brettsnyder.me/demo/master-blocks/example-aop-lp.html',
+        url: 'https://www.topwebwork.com/demo/master-blocks/example-aop-lp.html',
         label: 'Demo',
       },
     ],
@@ -45,7 +45,7 @@ const projects = [
         label: 'Figma',
       },
       {
-        url: 'https://www.brettsnyder.me/demo/alototrack-prototype/index.html',
+        url: 'https://www.topwebwork.com/demo/alototrack-prototype/index.html',
         label: 'Prototype',
       },
       { url: 'https://www.alotrack.com/', label: 'LP-1' },
@@ -60,7 +60,7 @@ const projects = [
 
     links: [
       {
-        url: 'https://www.brettsnyder.me/demo/escaperoom60-demo.jpg',
+        url: 'https://www.topwebwork.com/demo/escaperoom60-demo.jpg',
         label: 'Image',
       },
     ],
@@ -74,15 +74,15 @@ const projects = [
 
     links: [
       {
-        url: 'https://www.brettsnyder.me/demo/monarch-catalog/course-catalog.html',
+        url: 'https://www.topwebwork.com/demo/monarch-catalog/course-catalog.html',
         label: 'Prototype',
       },
       {
-        url: 'https://www.brettsnyder.me/demo/monarch-catalog/course-detail.html',
+        url: 'https://www.topwebwork.com/demo/monarch-catalog/course-detail.html',
         label: 'Detail',
       },
       {
-        url: 'https://www.brettsnyder.me/demo/monarch-catalog/error-404.html',
+        url: 'https://www.topwebwork.com/demo/monarch-catalog/error-404.html',
         label: '404',
       },
     ],
@@ -96,7 +96,7 @@ const projects = [
 
     links: [
       {
-        url: 'https://www.brettsnyder.me/demo/monarch-demo.jpg',
+        url: 'https://www.topwebwork.com/demo/monarch-demo.jpg',
         label: 'Image',
       },
     ],
@@ -168,7 +168,7 @@ const projects = [
         label: 'Custom Liquid Sections',
       },
       {
-        url: 'https://www.brettsnyder.me/demo/shopify-custom-sections.jpg',
+        url: 'https://www.topwebwork.com/demo/shopify-custom-sections.jpg',
         label: 'Image',
       },
     ],

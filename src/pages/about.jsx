@@ -113,7 +113,7 @@ export default function About() {
                 or CSS3 &amp; JQuery. Palm Pilot was a thing, responsive
                 websites were not. One of my first personal{' '}
                 <Link
-                  href="http://www.brettsnyder.me/demo/pushpad-screen.jpg"
+                  href="http://www.topwebwork.com/demo/pushpad-screen.jpg"
                   target="samples"
                   className="text-teal-500"
                 >
@@ -213,11 +213,11 @@ export default function About() {
                 Follow on LinkedIn
               </SocialLink>
               <SocialLink
-                href="mailto:hello@brettsnyder.me"
+                href="mailto:hello@topwebwork.com"
                 icon={MailIcon}
                 className="pt-8 mt-8 border-t border-zinc-100 dark:border-zinc-700/40"
               >
-                hello@brettsnyder.me
+                hello@topwebwork.com
               </SocialLink>
             </ul>
           </div>

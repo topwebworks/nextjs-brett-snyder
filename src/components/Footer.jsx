@@ -34,7 +34,7 @@ export function Footer() {
                 <strong>Cookies:</strong> I use basic Google cookies
                 to follow country, and page view stats. YouTube and Chat cookies
                 pulled from Master Blocks article demos. No PII is collected.
-                BrettSnyder.me is a noncommercial site about me that does not
+                topwebwork.com is a noncommercial site about me that does not
                 monetize or sell lead&nbsp;information.{' '}
                 <a
                   id="cookie-preferences"
