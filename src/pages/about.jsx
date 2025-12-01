@@ -213,11 +213,11 @@ export default function About() {
                 Follow on LinkedIn
               </SocialLink>
               <SocialLink
-                href="mailto:topwebworks@gmail.com"
+                href="mailto:cmsitehosting@gmail.com"
                 icon={MailIcon}
                 className="pt-8 mt-8 border-t border-zinc-100 dark:border-zinc-700/40"
               >
-                topwebworks@gmail.com
+                cmsitehosting@gmail.com
               </SocialLink>
             </ul>
           </div>
