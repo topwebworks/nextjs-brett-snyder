@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import TagManager from 'react-gtm-module'
 import Head from 'next/head'
 
@@ -19,16 +19,11 @@ function usePrevious(value) {
 }
 
 export default function App({ Component, pageProps, router }) {
-  const [isMounted, setIsMounted] = useState(false)
   let previousPathname = usePrevious(router.pathname)
 
   useEffect(() => {
-    setIsMounted(true)
-  }, [])
-
-  useEffect(() => {
     // Add Termly script
-    if (!window.termlyInitialized) {
+    if (typeof window !== 'undefined' && !window.termlyInitialized) {
       const termlyScript = document.createElement('script')
       termlyScript.src =
         'https://app.termly.io/resource-blocker/e5989bc1-23f6-49eb-ad6a-ad9c018e093f?autoBlock=off'
@@ -38,15 +33,11 @@ export default function App({ Component, pageProps, router }) {
     }
 
     // Initialize GTM using react-gtm-module
-    if (!window.gtmInitialized) {
+    if (typeof window !== 'undefined' && !window.gtmInitialized) {
       TagManager.initialize({ gtmId: 'GTM-WJXD68H' })
       window.gtmInitialized = true
     }
   }, [])
-
-  if (!isMounted) {
-    return null // or a loading spinner, etc.
-  }
 
   return (
     <>
