@@ -56,12 +56,12 @@ const projects = [
   {
     name: 'Escape Room 60',
     description:
-      'They wanted a more performant modern solution than their current WordPress site I did for them years ago. Kept header branding, but went with a Next.js refactor that included large content images for more interest. Why? With Next.js baked-in image optimization, the site loads very fast. Just waiting for them to make the switch.',
+      'They wanted a more performant modern solution than their current WordPress site I did for them years ago. Kept header branding, but went with a Next.js refactor that included large content images for more interest. With Next.js baked-in image optimization, the site loads very fast and is now live.',
 
     links: [
       {
-        url: 'https://www.topwebwork.com/demo/escaperoom60-demo.jpg',
-        label: 'Image',
+        url: 'https://www.escaperoom60.com/',
+        label: 'Site',
       },
     ],
 
